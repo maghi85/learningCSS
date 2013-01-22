@@ -1,0 +1,228 @@
+html, body, h1, h2, h3, h4, h5, h6, p, a, code, ul, ol, li, pre
+{
+	background: #FFF;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+}
+#wrapper
+{
+	background-color: lightblue;
+	width: 80%;
+	height: 450px;
+	margin-top: 100px;
+	margin-left: 25px;
+}
+#nav
+{
+	display: block;
+	float:left;
+	clear: both;
+	margin-top: -15px;
+	margin-left: 60px;
+}
+#nav li
+{
+	display: block;
+	float: left;
+	background: rgb(255,200,100);
+	font-variant: small-caps;
+}
+
+#nav li a
+{
+	border-top: 1px solid lightblue;
+	border-bottom: 1px solid lightblue;
+	border-right: 1px solid lightblue;
+	display: inline-block;
+	float:left;
+	height: 25px;
+	width: 85px;
+	text-decoration: none;
+	color: black;
+	padding-left: 35px;
+	padding-top: 5px;
+	background: url("../images/mysprites.jpg") no-repeat;
+
+}
+#nav #home
+{
+	border-left: 1px solid lightblue;
+	background-position: -50px -30px;
+}
+#nav #home:hover
+{
+	background-position: -50px -84px;
+	font-size: 110%;
+}
+#nav #products
+{
+	background-position: -170px -30px;
+}
+#nav #products:hover
+{
+	background-position: -170px -84px;
+	font-size: 110%;
+}
+#nav #services
+{
+	background-position: -290px -30px;
+}
+#nav #services:hover
+{
+	background-position: -290px -84px;
+	font-size: 110%;
+}
+#nav #about
+{
+	background-position: -415px -30px;
+}
+#nav #about:hover
+{
+	background-position: -415px -84px;
+	font-size: 110%;
+}
+#nav #contact
+{
+	background-position: -545px -30px;
+}
+#contact:hover
+{
+	background-position: -545px -84px;
+	font-size: 110%;
+}
+#formWrap
+{
+	display: block;
+	float: right;
+	width: 365px;
+	height: 200px;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 50px;
+	padding: 10px 10px 0px 10px;
+	border: 1px #fff solid;
+}
+form
+{
+	/*padding-top: 10px;*/
+	padding-left: 20px;
+	font-size: small;
+	padding-bottom: 10px;
+}
+
+form legend
+{
+	margin-top: -10px;
+	margin-bottom: 5px;
+	background-color: white;
+	padding-left: 5px;
+	font-size: xx-large;
+	color: lightblue;
+	border-bottom: 1px dashed lightblue;
+}
+
+.field
+{
+	display: inline-block;
+	clear:both;
+	height: 30px;
+	background-color: lightblue;
+
+	margin-bottom: 1px;
+	padding-top: 6px;
+	padding-left: 5px;
+	width: 325px;
+}
+form label
+{
+	float:left;
+	width: 100px;
+	padding-right: 10px;
+	padding-top: 1px;
+	text-align: right;
+	vertical-align: center;
+}
+
+form input[type="text"]
+{
+	border-top: 2px solid black;
+}
+form input[type="radio"]
+{
+	background-color: red;
+}
+#tableWrap table
+{
+	display: block;
+	float: right;
+	width: 400px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top:10px;
+}
+#tableWrap table tr
+{
+
+}
+#tableWrap table tr th
+{
+	height: 5px;
+	border: 1px solid lightgray;
+	width: 44%;
+}
+#tableWrap table tr td
+{
+
+}
+
+#sideBar
+{
+	float: left;
+	clear: both;
+	display: block;
+	width: 200px;
+	height: 500px;
+	margin-left: 20px;
+	margin-top: 10px;
+	/*overflow: hidden;*/
+}
+#sideBar ul
+{
+	list-style-type: none;
+	border-top: 1px solid gray;
+}
+#sideBar ul li
+{
+	border: 1px solid gray;
+	border-top: none;
+}
+.sideBarContent:first-line
+{
+	padding-left: 5px;
+	font-variant: small-caps;
+	font-size: small;
+	/*color: black;*/
+	font-weight: bold;
+}
+.sideBarContent
+{
+	padding-left: 5px;
+	font-size: 0.75em;
+	color: black;
+}
+.sideBarLink
+{
+	background-color: gray;
+	text-decoration: none;
+}
+
+#sideBar ul li a
+{
+	background-color: gray;
+}
+.sideBarContent:hover
+{
+	background-color: gray;
+	color: white;
+}
